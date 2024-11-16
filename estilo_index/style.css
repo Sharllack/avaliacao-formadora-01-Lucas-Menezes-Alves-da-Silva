@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.minhasInfos {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  animation: appear 0.7s ease-out;
+}
+
+@keyframes appear {
+  0% {
+    translate: 0 500px;
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.conteudo {
+  background-color: #000;
+  border: 2px red solid;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2em rgba(255, 0, 0, 0.349));
+  color: white;
+
+  animation: kik 1s ease-in infinite alternate;
+}
+
+@keyframes kik {
+  0% {
+    translate: 0 -5px;
+  }
+
+  100% {
+    translate: 0 0;
+  }
+}
+
+.imgPrin {
+  position: absolute;
+  width: 470px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  top: -135px; /* Ajuste para posicionar a parte superior da imagem dentro do círculo */
+  left: 48%;
+  transform: translateX(-50%); /* Centraliza a imagem horizontalmente */
+  clip-path: inset(0 0 -50% 0); /* Oculta a parte inferior da imagem */
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.411); /* Sombra vermelha */
+}
+
+.apresentacao {
+  margin: auto;
+  width: 450px;
+  color: white;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentacao .infos {
+  text-indent: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.apresentacao p {
+  text-indent: 25px;
+  font-size: 0.9em;
+  cursor: default;
+}
+
+.swiper-slide h1 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.swiper-slide p {
+  font-size: 0.9em;
+  text-indent: 20px;
+}

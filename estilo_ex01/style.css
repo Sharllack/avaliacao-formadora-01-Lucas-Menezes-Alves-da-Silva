@@ -1,0 +1,75 @@
+section {
+    background-color: black;
+    border: 2px red solid;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 18px;
+    filter: drop-shadow(0 0 2em rgba(255, 0, 0, 0.349));
+
+    animation: appear .7s ease-out;
+}
+
+@keyframes appear {
+    0% {
+        translate: 0 500px;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+section h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-top: 15px;
+    color: white;
+}
+
+section input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px white solid;
+    outline: none;
+    width: 85%;
+    transition: .5s;
+}
+
+section input:focus {
+    border-bottom: 2px red solid;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+section button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+    transition: .3s;
+}
+
+section button:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 10px 10px rgba(78, 78, 78, 0.308);
+}
+
+.imp {
+    display: flex;
+    justify-content: space-between;
+}

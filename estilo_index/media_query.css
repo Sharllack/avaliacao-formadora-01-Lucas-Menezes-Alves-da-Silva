@@ -1,0 +1,164 @@
+@media (max-width: 600px) {
+  .minhasInfos {
+    flex-direction: column;
+    transform: translate(0, 0);
+    top: 0;
+    left: 0;
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  .conteudo {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+  }
+
+  .imgPrin {
+    width: 275px;
+    top: -75px;
+  }
+
+  .apresentacao {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .apresentacao h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .apresentacao .infos {
+    font-size: 1em;
+  }
+
+  .apresentacao p {
+    font-size: 0.8em;
+  }
+
+  .slider {
+    margin-bottom: 25px;
+  }
+
+  .swiper {
+    width: 200px;
+    height: 280px;
+  }
+
+  .swiper-slide p {
+    font-size: 0.8em;
+    text-indent: 20px;
+  }
+
+  .swiper-slide {
+    padding: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .minhasInfos {
+    flex-direction: column;
+    transform: translate(0, 0);
+    top: 0;
+    left: 0;
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  .conteudo {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+  }
+
+  .imgPrin {
+    width: 275px;
+    top: -75px;
+  }
+
+  .apresentacao {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .apresentacao h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .apresentacao .infos {
+    font-size: 1em;
+  }
+
+  .apresentacao p {
+    font-size: 0.8em;
+  }
+
+  .slider {
+    margin-bottom: 25px;
+  }
+
+  .swiper {
+    width: 200px;
+    height: 280px;
+  }
+
+  .swiper-slide p {
+    font-size: 0.8em;
+    text-indent: 20px;
+  }
+
+  .swiper-slide {
+    padding: 10px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1294px) {
+  .minhasInfos {
+    margin-top: 25px;
+    width: 90%;
+  }
+
+  .conteudo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .imgPrin {
+    width: 370px;
+    top: -105px;
+  }
+
+  .apresentacao {
+    width: 40%;
+  }
+
+  .apresentacao h1 {
+    font-size: 1.4em;
+  }
+
+  .apresentacao .infos {
+    font-size: 1em;
+  }
+
+  .apresentacao p {
+    font-size: 0.8em;
+  }
+
+  .slider {
+    margin-bottom: 25px;
+  }
+
+  .swiper {
+    width: 180px;
+    height: 280px;
+  }
+
+  .swiper-slide p {
+    font-size: 0.8em;
+    text-indent: 20px;
+  }
+
+  .swiper-slide {
+    padding: 10px;
+  }
+}
